@@ -13,4 +13,9 @@ module.exports = {
     "vue/setup-compiler-macros": true,
     node: true,
   },
+  rules: {
+    "prettier/prettier": "error",
+    "no-console": "warn",
+    "no-unused-vars": "off",
+  },
 };

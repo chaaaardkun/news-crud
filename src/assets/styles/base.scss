@@ -1,0 +1,9 @@
+*,
+*::before,
+*::after {
+  @apply box-border m-0 relative font-normal;
+}
+
+body {
+  @apply text-gray-800 min-h-screen text-base;
+}
